@@ -41,7 +41,7 @@ def main():
         
         template = """
             Based on table below, pandas query, pandas response. Generate a natural language response.
-            Show the response without neither pandas code or the way you found it
+            Show the response neither with pandas code nor the way you found it
             Table: {table}
             
             Question: {question}
